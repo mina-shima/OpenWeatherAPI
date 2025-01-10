@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>世界の天気</title>
+        <link rel="stylesheet" href="./style.css">
+        <script src="./script.js"></script>
+    </head>
+    <body>
+        <!--<p id="Tokei">時間</p>-->
+        <input type="text" id="city" placeholder="都市名を入力">
+        <button id="getWeather" onclick="hyouji()">天気を取得</button>
+        <div id="weatherResult"></div>
+        <p>場所:<span id="place"></span></p>
+        <p>天気:<span id="weather"></span></p>
+        <p><img id="icon"></p>
+        <p>現在の気温:<span id="temp"></span>℃ / 湿度:<span id="humidity"></span>%</p>
+        <p>最高気温:<span id="maxTemp"></span>℃ / 最低気温:<span id="minTemp"></span>℃</p>
+    </body>
+</html>
